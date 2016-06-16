@@ -27,9 +27,9 @@ En Garde is a simple sword-fighting game for two players. The game is paused whi
 ## Implementation Timeline
 
 ### Phase 1
-- [ ] Set up canvas to render the game window.
-- [ ] Set up modal placeholder for rules.
-- [ ] Create Board object with perimeter rules.
+- [x] Set up canvas to render the game window.
+- [x] Set up modal placeholder for rules.
+- [x] Create Board object with perimeter rules.
 - [ ] Create Player object with movement and attack rules.
 - [ ] Write key mappings and rules for parsing turns.
 
@@ -42,9 +42,10 @@ En Garde is a simple sword-fighting game for two players. The game is paused whi
 - [ ] Render Slashes on Banner.
 
 ### Phase 3
+- [ ] Add AI player so game can be played solo.
 - [ ] Add sound effects to gameplay.
 - [ ] Add time delays on game start and hit.
 - [ ] Make graphical adjustments to polish display.
 
-[modal]: ./en-garde-modal.png
-[board]: ./en-garde-elements.png
+[modal]: ./docs/wireframes/en-garde-modal.png
+[board]: ./docs/wireframes/en-garde-elements.png

@@ -1,0 +1,43 @@
+body, div, h1, ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+canvas {
+  float: left;
+  z-index: 0;
+}
+
+h1 {
+  padding-top: 20px;
+}
+
+li {
+  margin: 5px 10px;
+}
+
+.modal-background {
+  background: rgba(0, 0, 0, 0.3);
+  width: 1000;
+  height: 600;
+  z-index: 10;
+  position: absolute;
+}
+
+.modal-window {
+  text-align: center;
+  background: #D1D1D1;
+  height: 450;
+  width: 400;
+  z-index: 11;
+  position: absolute;
+  left: 300px;
+  top: 75px;
+}
+
+.vanish {
+  opacity: 0;
+}
