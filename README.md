@@ -8,10 +8,9 @@ En Garde is a simple sword-fighting game for two players. The game is paused whi
 - [x] The game takes place on a 7 by 7 grid.
 - [x] Two players start at opposite ends in the central row.
 - [x] Players have four actions, either moving, jabbing or slashing.
-- [ ] Slashing attacks cover the square in front of the player and either side of it.
+- [x] Slashing attacks cover the square in front of the player and either side of it.
 - [x] Jabbing attacks cover two squares in front of the player.
 - [x] A banner to each side of the board dictates the state of play.
-- [ ] A jab meeting a jab or slash meeting a slash will cause a parry (both players will recoil one space).
 - [x] Landing an attack finishes the round and the losing player takes a slash to their banner.
 - [x] A player loses when they reach three slashes on their banner and the other player wins.
 
@@ -42,7 +41,7 @@ En Garde is a simple sword-fighting game for two players. The game is paused whi
 - [x] Render Slashes on Banner.
 
 ### Phase 3
-- [ ] Add AI player so game can be played solo.
+- [x] Add AI player so game can be played solo.
 - [ ] Add sound effects to gameplay.
 - [x] Add time delays on game start and hit.
 - [ ] Make graphical adjustments to polish display.
