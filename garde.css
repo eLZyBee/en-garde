@@ -1,3 +1,8 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body, div, h1, ul, li {
   padding: 0;
   margin: 0;
@@ -22,6 +27,7 @@ li {
 
 .modal-background {
   background: rgba(0, 0, 0, 0.3);
+  transition: 1.5s background;
   width: 100%;
   height: 100%;
   z-index: 10;
@@ -37,8 +43,40 @@ li {
   position: absolute;
   left: calc(50% - 200px);
   top: calc(50% - 225px);
+  opacity: 1;
+  transition: 1.5s opacity;
 }
 
 .vanish {
   opacity: 0;
+}
+
+.title-image {
+  position: absolute;
+  z-index: 10;
+  -webkit-filter: drop-shadow(2px 2px 0px #000000);
+  filter: drop-shadow(2px 2px 0px #000000);
+  top: calc(50% - 180px);
+  left: -1000px;
+}
+
+.title-image.appear {
+  left: calc(50% - 310px);
+  transition: 0.7s left;
+}
+.title-image.float {
+  left: calc(50% - 280px);
+  transition: 1.5s left;
+}
+.title-image.leave {
+  left: 150%;
+  transition: 0.7s left;
+}
+
+.modal-window.title-seq-wd {
+  opacity: 0;
+}
+
+.modal-background.title-seq-bg {
+  background: rgba(0, 0, 0, 0.85);
 }
