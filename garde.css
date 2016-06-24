@@ -19,6 +19,9 @@ canvas {
   display: block;
   z-index: 0;
   margin: auto;
+  position: absolute;
+  left: calc(50% - 500px);
+  top: calc(50% - 300px);
 }
 
 h1 {
@@ -63,10 +66,20 @@ li {
   top: calc(50% - 180px);
   left: -1000px;
 }
-
+.title-sword-image {
+  position: absolute;
+  z-index: 9;
+  top: -1000px;
+  left: calc(50% - 160px);
+}
 .title-image.appear {
   left: calc(50% - 310px);
   transition: 0.7s left;
+}
+.title-sword-image.appear {
+  top: calc(50% - 300px);
+  transform: rotate(180deg);
+  transition: 0.7s top;
 }
 .title-image.float {
   left: calc(50% - 280px);
@@ -75,6 +88,11 @@ li {
 .title-image.leave {
   left: 150%;
   transition: 0.7s left;
+}
+.title-sword-image.leave {
+  opacity: 0;
+  transform: rotate(360deg) scale(4);
+  transition: 2s opacity, 2s transform;
 }
 
 .modal-window.title-seq-wd {
