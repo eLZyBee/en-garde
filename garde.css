@@ -12,7 +12,7 @@ body, div, h1, ul, li {
   margin: 0;
   list-style: none;
   text-decoration: none;
-  font-family: sans-serif;
+  /*font-family: sans-serif;*/
 }
 
 canvas {
@@ -30,6 +30,12 @@ h1 {
 
 li {
   margin: 5px 10px;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .modal-background {
@@ -101,4 +107,52 @@ li {
 
 .modal-background.title-seq-bg {
   background: rgba(0, 0, 0, 0.85);
+}
+
+/* Player controls */
+
+.controls {
+  color: #ffffff;
+  text-align: center;
+  font-family: serif;
+  position: absolute;
+  max-width: 200px;
+}
+
+.controls li {
+  float: left;
+  background-color: #000000;
+  border-radius: 15%;
+  font-size: 14px;
+  width: 60px;
+  margin: 1px;
+}
+.controls h2 {
+  margin: 0;
+  font-size: 34px;
+}
+
+.player-one {
+  top: calc(50% + 180px);
+  left: calc(50% - 494px);
+}
+
+.player-two {
+  top: calc(50% + 180px);
+  right: calc(50% - 508px);
+}
+
+.ai-toggle {
+  top: calc(50% + 255px);
+  left: calc(50% - 50px);
+}
+
+.ai-toggle li {
+  background-color: #4a4a4a;
+  width: 40px;
+  margin-right: 20px;
+}
+
+.ai-toggle h2 {
+  font-size: 20px;
 }
