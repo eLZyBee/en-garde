@@ -51,12 +51,12 @@ li {
 .modal-window {
   text-align: center;
   background: #D1D1D1;
-  height: 450;
+  height: 340;
   width: 400;
   z-index: 11;
   position: absolute;
   left: calc(50% - 200px);
-  top: calc(50% - 225px);
+  top: calc(50% - 170px);
   opacity: 1;
   transition: 1.5s opacity;
 }
