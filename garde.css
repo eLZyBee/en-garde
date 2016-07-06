@@ -1,6 +1,7 @@
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 body {
@@ -127,6 +128,11 @@ li {
   width: 60px;
   margin: 1px;
 }
+
+.controls li:hover {
+  background-color: #421218;
+  cursor: pointer;
+}
 .controls h2 {
   margin: 0;
   font-size: 34px;
@@ -155,4 +161,8 @@ li {
 
 .ai-toggle h2 {
   font-size: 20px;
+}
+
+.pronounce {
+  z-index: 10;
 }
