@@ -166,3 +166,26 @@ li {
 .pronounce {
   z-index: 10;
 }
+
+.links {
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 10;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.links a {
+  float: left;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.links p {
+  color: black;
+  margin: 15px 0 0 0;
+}
+
+.links a:hover {
+  cursor:pointer;
+}
